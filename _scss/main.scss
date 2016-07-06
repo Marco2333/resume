@@ -1,0 +1,65 @@
+$mainColor: #32a3de;
+
+#main {
+	float: left;
+	width: 54%;
+	padding: 26px 20px 0 40px;
+}
+.section-title {
+	margin: 25px 0 11px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+	color: #383838;
+	.fa {
+		display: inline-block;
+		width: 15px;
+		text-align: center;
+		font-size: 15px;
+	}
+	> span {
+		margin-left: 10px;
+		font-weight: bold;
+	}
+} 
+.project-exp-name {
+	color: $mainColor;
+	font-size: 14px;
+	margin: 9px 0 6px;
+	font-weight: bold;
+	> span {
+		margin-right: 10px;
+	}
+}
+.project-exp-info {
+	color: #505050;
+	font-size: 14px;
+	> p {
+		margin-bottom: 5px;
+	}
+}
+.self-eva-item {
+	list-style: inside square;
+	font-size: 14px;
+	margin-top: 6px;
+	color: #444;
+}
+.honor-awards-item {
+	line-height: 22px; 
+	font-size: 14px;
+	list-style: inside;
+	color: #444;
+}
+#hobby-interest {
+	padding-top: 4px;
+}
+.hobby-interest-item {
+	width: 20%;
+	text-align: center;
+	float: left;
+	list-style: none;
+	font-size: 22px;
+	&:hover {
+		color: $mainColor;
+	}
+}
