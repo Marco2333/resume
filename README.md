@@ -1,2 +1,2 @@
 # resume
-####my personal resumen
+####My personal resume
